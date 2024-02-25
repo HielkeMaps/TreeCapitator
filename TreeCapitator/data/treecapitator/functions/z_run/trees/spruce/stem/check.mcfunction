@@ -1,0 +1,4 @@
+execute if block ~1 ~ ~ spruce_log if block ~1 ~1 ~ spruce_log if block ~1 ~ ~1 spruce_log if block ~1 ~1 ~1 spruce_log if block ~ ~ ~1 spruce_log if block ~ ~1 ~1 spruce_log run function treecapitator:z_run/trees/spruce/stem/remove/1
+execute if block ~1 ~ ~ spruce_log if block ~1 ~1 ~ spruce_log if block ~1 ~ ~-1 spruce_log if block ~1 ~1 ~-1 spruce_log if block ~ ~ ~-1 spruce_log if block ~ ~1 ~-1 spruce_log run function treecapitator:z_run/trees/spruce/stem/remove/2
+execute if block ~-1 ~ ~ spruce_log if block ~-1 ~1 ~ spruce_log if block ~-1 ~ ~1 spruce_log if block ~-1 ~1 ~1 spruce_log if block ~ ~ ~1 spruce_log if block ~ ~1 ~1 spruce_log run function treecapitator:z_run/trees/spruce/stem/remove/3
+execute if block ~-1 ~ ~ spruce_log if block ~-1 ~1 ~ spruce_log if block ~-1 ~ ~-1 spruce_log if block ~-1 ~1 ~-1 spruce_log if block ~ ~ ~-1 spruce_log if block ~ ~1 ~-1 spruce_log run function treecapitator:z_run/trees/spruce/stem/remove/4

@@ -1,0 +1,2 @@
+execute if score stone_axe tc.break_oak matches 0 run tellraw @s ["",{"text":"[ ❌ ]","color":"red","clickEvent":{"action":"run_command","value":"/trigger TreeCapitator set 403"}},{"text":" Oak","hoverEvent":{"action":"show_text","value":"Whether oak trees can be cut with stone axe"}}]
+execute if score stone_axe tc.break_oak matches 1 run tellraw @s ["",{"text":"[ ✔ ]","color":"green","clickEvent":{"action":"run_command","value":"/trigger TreeCapitator set 404"}},{"text":" Oak","hoverEvent":{"action":"show_text","value":"Whether oak trees can be cut with stone axe"}}]

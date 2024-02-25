@@ -1,0 +1,4 @@
+execute if block ~1 ~ ~ jungle_log if block ~1 ~1 ~ jungle_log if block ~1 ~ ~1 jungle_log if block ~1 ~1 ~1 jungle_log if block ~ ~ ~1 jungle_log if block ~ ~1 ~1 jungle_log run function treecapitator:z_run/trees/jungle/stem/remove/1
+execute if block ~1 ~ ~ jungle_log if block ~1 ~1 ~ jungle_log if block ~1 ~ ~-1 jungle_log if block ~1 ~1 ~-1 jungle_log if block ~ ~ ~-1 jungle_log if block ~ ~1 ~-1 jungle_log run function treecapitator:z_run/trees/jungle/stem/remove/2
+execute if block ~-1 ~ ~ jungle_log if block ~-1 ~1 ~ jungle_log if block ~-1 ~ ~1 jungle_log if block ~-1 ~1 ~1 jungle_log if block ~ ~ ~1 jungle_log if block ~ ~1 ~1 jungle_log run function treecapitator:z_run/trees/jungle/stem/remove/3
+execute if block ~-1 ~ ~ jungle_log if block ~-1 ~1 ~ jungle_log if block ~-1 ~ ~-1 jungle_log if block ~-1 ~1 ~-1 jungle_log if block ~ ~ ~-1 jungle_log if block ~ ~1 ~-1 jungle_log run function treecapitator:z_run/trees/jungle/stem/remove/4

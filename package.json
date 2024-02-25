@@ -1,0 +1,16 @@
+{
+  "name": "treecapitator",
+  "version": "1.0.0",
+  "description": "TreeCapitator Data Pack for Minecraft",
+  "main": "index.js",
+  "scripts": {
+    "start": "node watch-changes.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "fs-extra": "^11.2.0"
+  }
+}

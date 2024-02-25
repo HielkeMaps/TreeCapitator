@@ -1,0 +1,2 @@
+execute if score golden_axe tc.break_oak matches 0 run tellraw @s ["",{"text":"[ ❌ ]","color":"red","clickEvent":{"action":"run_command","value":"/trigger TreeCapitator set 203"}},{"text":" Oak","hoverEvent":{"action":"show_text","value":"Whether oak trees can be cut with golden axe"}}]
+execute if score golden_axe tc.break_oak matches 1 run tellraw @s ["",{"text":"[ ✔ ]","color":"green","clickEvent":{"action":"run_command","value":"/trigger TreeCapitator set 204"}},{"text":" Oak","hoverEvent":{"action":"show_text","value":"Whether oak trees can be cut with golden axe"}}]
