@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:warped_wart_block",
+      "minecraft:nether_wart_block",
+      "minecraft:shroomlight"
+    ]
+  }

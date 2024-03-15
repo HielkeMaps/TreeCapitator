@@ -1,0 +1,12 @@
+{
+  "function": "minecraft:set_damage",
+  "damage": {
+    "type": "minecraft:score",
+    "target": {
+      "type": "minecraft:fixed",
+      "name": "tc.damage_percentage"
+    },
+    "score": "tc.value",
+    "scale": 0.00001
+  }
+}

@@ -1,0 +1,1 @@
+$summon falling_block ~ ~-0.5 ~ {BlockState:{Name:"$(animation_block)"},Time:1,CancelDrop:1b}

@@ -1,0 +1,65 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "tc.use_wood": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "tc.use_stone": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "tc.use_iron": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "tc.use_gold": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "tc.use_diamond": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "tc.use_netherite": {
+          "min": 1,
+          "max": 2147483647
+        }
+      }
+    }
+  ]
+}

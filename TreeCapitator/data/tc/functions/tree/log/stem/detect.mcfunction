@@ -1,0 +1,5 @@
+#check all 4 combinations
+$execute if block ~1 ~ ~ $(block) if block ~1 ~1 ~ $(block) if block ~1 ~ ~1 $(block) if block ~1 ~1 ~1 $(block) if block ~ ~ ~1 $(block) if block ~ ~1 ~1 $(block) run function tc:tree/log/stem/remove/1
+$execute if block ~1 ~ ~ $(block) if block ~1 ~1 ~ $(block) if block ~1 ~ ~-1 $(block) if block ~1 ~1 ~-1 $(block) if block ~ ~ ~-1 $(block) if block ~ ~1 ~-1 $(block) run function tc:tree/log/stem/remove/2
+$execute if block ~-1 ~ ~ $(block) if block ~-1 ~1 ~ $(block) if block ~-1 ~ ~1 $(block) if block ~-1 ~1 ~1 $(block) if block ~ ~ ~1 $(block) if block ~ ~1 ~1 $(block) run function tc:tree/log/stem/remove/3
+$execute if block ~-1 ~ ~ $(block) if block ~-1 ~1 ~ $(block) if block ~-1 ~ ~-1 $(block) if block ~-1 ~1 ~-1 $(block) if block ~ ~ ~-1 $(block) if block ~ ~1 ~-1 $(block) run function tc:tree/log/stem/remove/4

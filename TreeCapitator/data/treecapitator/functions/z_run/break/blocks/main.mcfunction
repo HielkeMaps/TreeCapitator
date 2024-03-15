@@ -1,1 +1,0 @@
-setblock ~ ~ ~ air destroy

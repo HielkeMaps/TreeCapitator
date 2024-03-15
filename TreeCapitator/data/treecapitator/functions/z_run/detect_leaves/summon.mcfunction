@@ -1,2 +1,0 @@
-summon marker ~ ~ ~ {NoGravity:1b,Duration:1,CustomName:'{"text":"TreeCapitator"}',Tags:["TC_Leaf"]}
-execute as @e[type=marker,tag=TC_Leaf,sort=nearest,limit=1] run function treecapitator:z_run/detect_leaves/loop
