@@ -13,8 +13,8 @@ execute if score @s TreeCapitator matches 511 run function tc:config/axe_types/w
 execute if score @s TreeCapitator matches 512 run function tc:config/axe_types/wooden_axe/edit/logs/jungle/disable
 execute if score @s TreeCapitator matches 513 run function tc:config/axe_types/wooden_axe/edit/logs/birch/enable
 execute if score @s TreeCapitator matches 514 run function tc:config/axe_types/wooden_axe/edit/logs/birch/disable
-execute if score @s TreeCapitator matches 515 run function tc:config/axe_types/wooden_axe/edit/logs/nether/enable
-execute if score @s TreeCapitator matches 516 run function tc:config/axe_types/wooden_axe/edit/logs/nether/disable
+execute if score @s TreeCapitator matches 515 run function tc:config/axe_types/wooden_axe/edit/logs/crimson/enable
+execute if score @s TreeCapitator matches 516 run function tc:config/axe_types/wooden_axe/edit/logs/crimson/disable
 execute if score @s TreeCapitator matches 517 run function tc:config/axe_types/wooden_axe/edit/logs/warped/enable
 execute if score @s TreeCapitator matches 518 run function tc:config/axe_types/wooden_axe/edit/logs/warped/disable
 execute if score @s TreeCapitator matches 519 run function tc:config/axe_types/wooden_axe/edit/logs/mangrove/enable

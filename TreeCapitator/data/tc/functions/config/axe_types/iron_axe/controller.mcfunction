@@ -13,8 +13,8 @@ execute if score @s TreeCapitator matches 311 run function tc:config/axe_types/i
 execute if score @s TreeCapitator matches 312 run function tc:config/axe_types/iron_axe/edit/logs/jungle/disable
 execute if score @s TreeCapitator matches 313 run function tc:config/axe_types/iron_axe/edit/logs/birch/enable
 execute if score @s TreeCapitator matches 314 run function tc:config/axe_types/iron_axe/edit/logs/birch/disable
-execute if score @s TreeCapitator matches 315 run function tc:config/axe_types/iron_axe/edit/logs/nether/enable
-execute if score @s TreeCapitator matches 316 run function tc:config/axe_types/iron_axe/edit/logs/nether/disable
+execute if score @s TreeCapitator matches 315 run function tc:config/axe_types/iron_axe/edit/logs/crimson/enable
+execute if score @s TreeCapitator matches 316 run function tc:config/axe_types/iron_axe/edit/logs/crimson/disable
 execute if score @s TreeCapitator matches 317 run function tc:config/axe_types/iron_axe/edit/logs/warped/enable
 execute if score @s TreeCapitator matches 318 run function tc:config/axe_types/iron_axe/edit/logs/warped/disable
 execute if score @s TreeCapitator matches 319 run function tc:config/axe_types/iron_axe/edit/logs/mangrove/enable

@@ -13,8 +13,8 @@ execute if score @s TreeCapitator matches 211 run function tc:config/axe_types/g
 execute if score @s TreeCapitator matches 212 run function tc:config/axe_types/golden_axe/edit/logs/jungle/disable
 execute if score @s TreeCapitator matches 213 run function tc:config/axe_types/golden_axe/edit/logs/birch/enable
 execute if score @s TreeCapitator matches 214 run function tc:config/axe_types/golden_axe/edit/logs/birch/disable
-execute if score @s TreeCapitator matches 215 run function tc:config/axe_types/golden_axe/edit/logs/nether/enable
-execute if score @s TreeCapitator matches 216 run function tc:config/axe_types/golden_axe/edit/logs/nether/disable
+execute if score @s TreeCapitator matches 215 run function tc:config/axe_types/golden_axe/edit/logs/crimson/enable
+execute if score @s TreeCapitator matches 216 run function tc:config/axe_types/golden_axe/edit/logs/crimson/disable
 execute if score @s TreeCapitator matches 217 run function tc:config/axe_types/golden_axe/edit/logs/warped/enable
 execute if score @s TreeCapitator matches 218 run function tc:config/axe_types/golden_axe/edit/logs/warped/disable
 execute if score @s TreeCapitator matches 219 run function tc:config/axe_types/golden_axe/edit/logs/mangrove/enable

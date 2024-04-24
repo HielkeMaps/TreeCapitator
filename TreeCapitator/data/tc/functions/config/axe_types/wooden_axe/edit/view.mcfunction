@@ -11,7 +11,7 @@ function tc:config/axe_types/wooden_axe/edit/logs/jungle/main
 function tc:config/axe_types/wooden_axe/edit/logs/birch/main
 function tc:config/axe_types/wooden_axe/edit/logs/mangrove/main
 function tc:config/axe_types/wooden_axe/edit/logs/cherry/main
-function tc:config/axe_types/wooden_axe/edit/logs/nether/main
+function tc:config/axe_types/wooden_axe/edit/logs/crimson/main
 function tc:config/axe_types/wooden_axe/edit/logs/warped/main
 tellraw @s {"text":""}
 tellraw @s {"text":""}

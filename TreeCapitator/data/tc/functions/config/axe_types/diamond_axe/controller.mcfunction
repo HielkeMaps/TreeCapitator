@@ -13,8 +13,8 @@ execute if score @s TreeCapitator matches 111 run function tc:config/axe_types/d
 execute if score @s TreeCapitator matches 112 run function tc:config/axe_types/diamond_axe/edit/logs/jungle/disable
 execute if score @s TreeCapitator matches 113 run function tc:config/axe_types/diamond_axe/edit/logs/birch/enable
 execute if score @s TreeCapitator matches 114 run function tc:config/axe_types/diamond_axe/edit/logs/birch/disable
-execute if score @s TreeCapitator matches 115 run function tc:config/axe_types/diamond_axe/edit/logs/nether/enable
-execute if score @s TreeCapitator matches 116 run function tc:config/axe_types/diamond_axe/edit/logs/nether/disable
+execute if score @s TreeCapitator matches 115 run function tc:config/axe_types/diamond_axe/edit/logs/crimson/enable
+execute if score @s TreeCapitator matches 116 run function tc:config/axe_types/diamond_axe/edit/logs/crimson/disable
 execute if score @s TreeCapitator matches 117 run function tc:config/axe_types/diamond_axe/edit/logs/warped/enable
 execute if score @s TreeCapitator matches 118 run function tc:config/axe_types/diamond_axe/edit/logs/warped/disable
 execute if score @s TreeCapitator matches 119 run function tc:config/axe_types/diamond_axe/edit/logs/mangrove/enable

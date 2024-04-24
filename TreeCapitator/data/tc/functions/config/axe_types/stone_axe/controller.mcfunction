@@ -13,8 +13,8 @@ execute if score @s TreeCapitator matches 411 run function tc:config/axe_types/s
 execute if score @s TreeCapitator matches 412 run function tc:config/axe_types/stone_axe/edit/logs/jungle/disable
 execute if score @s TreeCapitator matches 413 run function tc:config/axe_types/stone_axe/edit/logs/birch/enable
 execute if score @s TreeCapitator matches 414 run function tc:config/axe_types/stone_axe/edit/logs/birch/disable
-execute if score @s TreeCapitator matches 415 run function tc:config/axe_types/stone_axe/edit/logs/nether/enable
-execute if score @s TreeCapitator matches 416 run function tc:config/axe_types/stone_axe/edit/logs/nether/disable
+execute if score @s TreeCapitator matches 415 run function tc:config/axe_types/stone_axe/edit/logs/crimson/enable
+execute if score @s TreeCapitator matches 416 run function tc:config/axe_types/stone_axe/edit/logs/crimson/disable
 execute if score @s TreeCapitator matches 417 run function tc:config/axe_types/stone_axe/edit/logs/warped/enable
 execute if score @s TreeCapitator matches 418 run function tc:config/axe_types/stone_axe/edit/logs/warped/disable
 execute if score @s TreeCapitator matches 419 run function tc:config/axe_types/stone_axe/edit/logs/mangrove/enable

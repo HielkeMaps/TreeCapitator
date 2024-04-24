@@ -13,8 +13,8 @@ execute if score @s TreeCapitator matches 1311 run function tc:config/axe_types/
 execute if score @s TreeCapitator matches 1312 run function tc:config/axe_types/netherite_axe/edit/logs/jungle/disable
 execute if score @s TreeCapitator matches 1313 run function tc:config/axe_types/netherite_axe/edit/logs/birch/enable
 execute if score @s TreeCapitator matches 1314 run function tc:config/axe_types/netherite_axe/edit/logs/birch/disable
-execute if score @s TreeCapitator matches 1315 run function tc:config/axe_types/netherite_axe/edit/logs/nether/enable
-execute if score @s TreeCapitator matches 1316 run function tc:config/axe_types/netherite_axe/edit/logs/nether/disable
+execute if score @s TreeCapitator matches 1315 run function tc:config/axe_types/netherite_axe/edit/logs/crimson/enable
+execute if score @s TreeCapitator matches 1316 run function tc:config/axe_types/netherite_axe/edit/logs/crimson/disable
 execute if score @s TreeCapitator matches 1317 run function tc:config/axe_types/netherite_axe/edit/logs/warped/enable
 execute if score @s TreeCapitator matches 1318 run function tc:config/axe_types/netherite_axe/edit/logs/warped/disable
 execute if score @s TreeCapitator matches 1319 run function tc:config/axe_types/netherite_axe/edit/logs/mangrove/enable
