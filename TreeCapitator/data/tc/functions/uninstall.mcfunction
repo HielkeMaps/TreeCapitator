@@ -19,7 +19,6 @@ scoreboard objectives remove tc.use_diamond
 scoreboard objectives remove tc.use_netherite
 
 scoreboard objectives remove tc.value
-scoreboard objectives remove tc.damage
 
 scoreboard objectives remove TreeCapitator
 

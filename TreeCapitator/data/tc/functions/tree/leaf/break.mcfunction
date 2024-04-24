@@ -7,4 +7,4 @@ loot spawn ~ ~ ~ mine ~ ~ ~
 setblock ~ ~ ~ air
 
 #particles
-$particle minecraft:block $(leaves) ~ ~ ~ 0.5 0.5 0.5 1 5
+$particle minecraft:block{block_state:"$(leaves)"} ~ ~ ~ 0.5 0.5 0.5 1 5

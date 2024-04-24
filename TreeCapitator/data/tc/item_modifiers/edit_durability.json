@@ -7,6 +7,7 @@
       "name": "tc.damage_percentage"
     },
     "score": "tc.value",
-    "scale": 0.00001
-  }
+    "scale": -0.000001005
+  },
+  "add": true
 }

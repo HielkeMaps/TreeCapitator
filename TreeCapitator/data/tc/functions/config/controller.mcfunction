@@ -10,8 +10,8 @@ execute if score @s TreeCapitator matches 400..499 run function tc:config/axe_ty
 execute if score @s TreeCapitator matches 500..599 run function tc:config/axe_types/wooden_axe/controller
 execute if score @s TreeCapitator matches 1300..1399 run function tc:config/axe_types/netherite_axe/controller
 
-execute if score @s TreeCapitator matches 600 run function tc:config/break_leaf/enable
-execute if score @s TreeCapitator matches 601 run function tc:config/break_leaf/disable
+execute if score @s TreeCapitator matches 600 run function tc:config/break_leaves/enable
+execute if score @s TreeCapitator matches 601 run function tc:config/break_leaves/disable
 
 execute if score @s TreeCapitator matches 700 run function tc:config/works_sneaking/enable
 execute if score @s TreeCapitator matches 701 run function tc:config/works_sneaking/disable

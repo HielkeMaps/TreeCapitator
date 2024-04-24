@@ -20,11 +20,11 @@ scoreboard objectives add tc.use_netherite minecraft.used:minecraft.netherite_ax
 
 scoreboard objectives add tc.disabled dummy
 scoreboard objectives add tc.value dummy
-scoreboard objectives add tc.damage dummy
 
 scoreboard players set 2 tc.value 2
 scoreboard players set 3 tc.value 3
 scoreboard players set 4 tc.value 4
+scoreboard players set 1000000 tc.value 1000000
 
 execute unless score netherite_axe tc.value = netherite_axe tc.value run scoreboard players set netherite_axe tc.value 1
 execute unless score diamond_axe tc.value = diamond_axe tc.value run scoreboard players set diamond_axe tc.value 1

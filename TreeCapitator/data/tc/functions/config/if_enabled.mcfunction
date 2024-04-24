@@ -1,5 +1,5 @@
 function tc:config/durability/main
-function tc:config/break_leaf/main
+function tc:config/break_leaves/main
 execute if score tc.break_leaves tc.value matches 0 run tellraw @s {"text":""}
 execute if score tc.break_leaves tc.value matches 1 run function tc:config/animation/main
 tellraw @s {"text":""}
