@@ -107,4 +107,4 @@ execute unless score wooden_axe tc.break_mangrove_log = wooden_axe tc.break_mang
 
 scoreboard objectives add TreeCapitator trigger
 
-tellraw @a [{"text":"[Datapack]"},{"text":" TreeCapitator v4.0 has been enabled","color":"green"}]
+tellraw @a [{"text":"[Datapack]"},{"text":" TreeCapitator v4.1 has been enabled","color":"green"}]
