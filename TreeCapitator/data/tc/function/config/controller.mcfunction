@@ -3,12 +3,12 @@ execute if score tc.lock_options tc.value matches 1 unless score @s TreeCapitato
 
 execute if score @s TreeCapitator matches 1 run function tc:options
 
-execute if score @s TreeCapitator matches 100..199 run function tc:config/axe_types/diamond_axe/controller
-execute if score @s TreeCapitator matches 200..299 run function tc:config/axe_types/golden_axe/controller
-execute if score @s TreeCapitator matches 300..399 run function tc:config/axe_types/iron_axe/controller
-execute if score @s TreeCapitator matches 400..499 run function tc:config/axe_types/stone_axe/controller
-execute if score @s TreeCapitator matches 500..599 run function tc:config/axe_types/wooden_axe/controller
-execute if score @s TreeCapitator matches 1300..1399 run function tc:config/axe_types/netherite_axe/controller
+function tc:config/axe/controller {axe: "netherite_axe", name: "Netherite Axe", id: 1}
+function tc:config/axe/controller {axe: "diamond_axe", name: "Diamond Axe", id: 2}
+function tc:config/axe/controller {axe: "golden_axe", name: "Golden Axe", id: 3}
+function tc:config/axe/controller {axe: "iron_axe", name: "Iron Axe", id: 4}
+function tc:config/axe/controller {axe: "stone_axe", name: "Stone Axe", id: 5}
+function tc:config/axe/controller {axe: "wooden_axe", name: "Wooden Axe", id: 6}
 
 execute if score @s TreeCapitator matches 600 run function tc:config/break_leaves/enable
 execute if score @s TreeCapitator matches 601 run function tc:config/break_leaves/disable

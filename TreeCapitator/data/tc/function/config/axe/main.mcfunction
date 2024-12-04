@@ -1,0 +1,3 @@
+$execute if score $(axe) tc.value matches 0 run return run tellraw @s ["",{"text":"[ ❌ ]","color":"red","clickEvent":{"action":"run_command","value":"/trigger TreeCapitator set $(id)0000"}},{"text":" $(name)","hoverEvent":{"action":"show_text","value":"Whether TreeCapitator works with $(name)s"}}]
+
+$tellraw @s ["",{"text":"[ ✔ ]","color":"green","clickEvent":{"action":"run_command","value":"/trigger TreeCapitator set $(id)0001"}},{"text":" "},{"text":"[ ✎ ]","color":"blue","hoverEvent":{"action":"show_text","value":"Edit"},"clickEvent":{"action":"run_command","value":"/trigger TreeCapitator set $(id)1000"}},{"text":" $(name)","hoverEvent":{"action":"show_text","value":"Whether TreeCapitator works with $(name)s"}}]
