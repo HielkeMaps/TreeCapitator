@@ -2,6 +2,8 @@ execute if score @s tc.break_oak_log matches 1.. run return run function tc:play
 
 execute if score @s tc.break_dark_oak_log matches 1.. run return run function tc:player/check/valid {namespace:"minecraft",animation_block:dark_oak_wood,block:dark_oak_log,leaves:dark_oak_leaves,diagonal_up:1,diagonal_side:1,stem:1,nether:0,max_branch:0}
 
+execute if score @s tc.break_pale_oak_log matches 1.. run return run function tc:player/check/valid {namespace:"minecraft",animation_block:pale_oak_wood,block:pale_oak_log,leaves:pale_oak_leaves,diagonal_up:1,diagonal_side:1,stem:1,nether:0,max_branch:0}
+
 execute if score @s tc.break_acacia_log matches 1.. run return run function tc:player/check/valid {namespace:"minecraft",animation_block:acacia_wood,block:acacia_log,leaves:acacia_leaves,diagonal_up:1,diagonal_side:0,stem:0,nether:0,max_branch:0}
 
 execute if score @s tc.break_birch_log matches 1.. run return run function tc:player/check/valid {namespace:"minecraft",animation_block:birch_log,block:birch_log,leaves:birch_leaves,diagonal_up:0,diagonal_side:0,stem:0,nether:0,max_branch:0}
