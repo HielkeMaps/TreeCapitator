@@ -10,7 +10,7 @@ execute if score @s tc.break_birch_log matches 1.. run return run function tc:pl
 
 execute if score @s tc.break_jungle_log matches 1.. run return run function tc:player/check/valid {namespace:"minecraft",animation_block:jungle_wood,block:jungle_log,leaves:jungle_leaves,diagonal_up:1,diagonal_side:1,stem:1,nether:0,max_branch:2}
 
-execute if score @s tc.break_spruce_log matches 1.. run return run function tc:player/check/valid {namespace:"minecraft",animation_block:spruce_log,block:spruce_log,leaves:spruce_leaves,diagonal_up:0,diagonal_side:0,stem:1,nether:0,max_branch:0}
+execute if score @s tc.break_spruce_log matches 1.. run return run function tc:player/check/valid {namespace:"minecraft",animation_block:spruce_log,block:spruce_log,leaves:spruce_leaves,diagonal_up:1,diagonal_side:0,stem:1,nether:0,max_branch:0}
 
 execute if score @s tc.break_mangrove_log matches 1.. run return run function tc:player/check/valid {namespace:"minecraft",animation_block:mangrove_wood,block:mangrove_log,leaves:mangrove_leaves,diagonal_up:1,diagonal_side:1,stem:0,nether:0,max_branch:0}
 
