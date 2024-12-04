@@ -1,0 +1,1 @@
+$execute if score tc.axe_used tc.value matches $(a_id) run scoreboard players set tc.max_damage tc.value $(a_max_damage)

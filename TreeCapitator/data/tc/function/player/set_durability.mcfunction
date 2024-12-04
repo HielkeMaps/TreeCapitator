@@ -25,15 +25,9 @@ scoreboard players operation tc.resulting_damage tc.value += tc.current_damage t
 #tellraw @a ["",{"text":"Resulting item damage: "},{"score":{"name":"tc.resulting_damage","objective":"tc.value"}}]
 
 #Check axe and set damage limit
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_axe"}}] run scoreboard players set tc.max_damage tc.value 2031
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_axe"}}] run scoreboard players set tc.max_damage tc.value 1561
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:iron_axe"}}] run scoreboard players set tc.max_damage tc.value 250
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:stone_axe"}}] run scoreboard players set tc.max_damage tc.value 131
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:wooden_axe"}}] run scoreboard players set tc.max_damage tc.value 59
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:golden_axe"}}] run scoreboard players set tc.max_damage tc.value 32
-execute if score tc.resulting_damage tc.value >= tc.max_damage tc.value run return fail
-
+function tc:player/max_damage/main
 #tellraw @a ["",{"text":"Max item damage: "},{"score":{"name":"tc.max_damage","objective":"tc.value"}}]
+execute if score tc.resulting_damage tc.value >= tc.max_damage tc.value run return fail
 
 scoreboard players operation tc.damage_percentage tc.value = tc.damage tc.value
 scoreboard players operation tc.damage_percentage tc.value *= 1000000 tc.value
