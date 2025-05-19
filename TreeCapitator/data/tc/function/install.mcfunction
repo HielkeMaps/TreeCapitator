@@ -35,4 +35,4 @@ execute unless score tc.lock_options tc.value = tc.lock_options tc.value run sco
 
 scoreboard objectives add TreeCapitator trigger
 
-tellraw @a [{"text":"[Datapack]"},{"text":" TreeCapitator v4.2 has been enabled","color":"green"}]
+tellraw @a [{"text":"[Datapack]"},{"text":" TreeCapitator v4.3 has been enabled","color":"green"}]
