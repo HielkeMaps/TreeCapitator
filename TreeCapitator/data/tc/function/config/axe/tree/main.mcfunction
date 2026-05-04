@@ -1,8 +1,5 @@
-#edit
 $execute if score @s TreeCapitator matches 1$(a_id)10$(t_id) run function tc:config/axe/tree/enable {a_score: "$(a_score)", t_block: "$(t_block)"}
 $execute if score @s TreeCapitator matches 1$(a_id)11$(t_id) run function tc:config/axe/tree/disable {a_score: "$(a_score)", t_block: "$(t_block)"}
 
-#view
-$execute if score $(a_score) tc.break_$(t_block) matches 0 run return run tellraw @s ["",{"text":"[ ❌ ]","color":"red","clickEvent":{"action":"run_command","value":"/trigger TreeCapitator set 1$(a_id)10$(t_id)"}},{"text":" $(t_name)","hoverEvent":{"action":"show_text","value":"Whether $(t_name) trees can be cut with $(a_name)"}}]
-
-$tellraw @s ["",{"text":"[ ✔ ]","color":"green","clickEvent":{"action":"run_command","value":"/trigger TreeCapitator set 1$(a_id)11$(t_id)"}},{"text":" $(t_name)","hoverEvent":{"action":"show_text","value":"Whether $(t_name) trees can be cut with $(a_name)"}}]
+$execute if score $(a_score) tc.break_$(t_block) matches 0 run data modify storage tc:temp actions append value {label:{text:"❌ $(t_name)",color:"red"},tooltip:"$(a_name)s cannot fell $(t_name) trees. Click to enable.",action:{type:"run_command",command:"trigger TreeCapitator set 1$(a_id)10$(t_id)"}}
+$execute unless score $(a_score) tc.break_$(t_block) matches 0 run data modify storage tc:temp actions append value {label:{text:"✔ $(t_name)",color:"green"},tooltip:"$(a_name)s can fell $(t_name) trees. Click to disable.",action:{type:"run_command",command:"trigger TreeCapitator set 1$(a_id)11$(t_id)"}}

@@ -4,12 +4,9 @@ $scoreboard players reset @s tc.break_$(t_block)
 #to stop looking for more trees
 scoreboard players set tc.trees_checked tc.value 99999
 
-#disabled check
-execute if score @s tc.disabled matches 1 run return fail
-
 #sneaking/standing check
-execute if score tc.when_sneaking tc.value matches 0 if predicate tc:is_sneaking run return fail
-execute if score tc.when_standing tc.value matches 0 unless predicate tc:is_sneaking run return fail
+execute if score @s tc.when_sneaking matches 0 if predicate tc:is_sneaking run return fail
+execute if score @s tc.when_standing matches 0 unless predicate tc:is_sneaking run return fail
 
 #axe check
 scoreboard players set tc.valid tc.value 0

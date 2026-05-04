@@ -1,5 +1,3 @@
-scoreboard objectives remove tc.disabled
-
 scoreboard objectives remove tc.break_oak_log
 scoreboard objectives remove tc.break_dark_oak_log
 scoreboard objectives remove tc.break_acacia_log
@@ -10,13 +8,18 @@ scoreboard objectives remove tc.break_crimson_stem
 scoreboard objectives remove tc.break_warped_stem
 scoreboard objectives remove tc.break_mangrove_log
 scoreboard objectives remove tc.break_cherry_log
+scoreboard objectives remove tc.break_pale_oak_log
 
-scoreboard objectives remove tc.use_wood
-scoreboard objectives remove tc.use_stone
-scoreboard objectives remove tc.use_iron
-scoreboard objectives remove tc.use_gold
-scoreboard objectives remove tc.use_diamond
-scoreboard objectives remove tc.use_netherite
+scoreboard objectives remove tc.use_wooden_axe
+scoreboard objectives remove tc.use_stone_axe
+scoreboard objectives remove tc.use_copper_axe
+scoreboard objectives remove tc.use_iron_axe
+scoreboard objectives remove tc.use_golden_axe
+scoreboard objectives remove tc.use_diamond_axe
+scoreboard objectives remove tc.use_netherite_axe
+
+scoreboard objectives remove tc.when_standing
+scoreboard objectives remove tc.when_sneaking
 
 scoreboard objectives remove tc.value
 

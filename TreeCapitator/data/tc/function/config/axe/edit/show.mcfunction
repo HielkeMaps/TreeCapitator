@@ -1,0 +1,1 @@
+$dialog show @s {type:"minecraft:multi_action",title:"$(a_name) Trees",external_title:"$(a_name) Trees",body:[{type:"minecraft:plain_message",contents:"Configure which trees this axe can cut"}],actions:$(actions),exit_action:{label:"Back",action:{type:"run_command",command:"trigger TreeCapitator set 1$(a_id)0003"}},columns:2}
