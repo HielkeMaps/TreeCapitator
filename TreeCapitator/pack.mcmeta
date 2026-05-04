@@ -1,6 +1,7 @@
 {
     "pack": {
-        "pack_format": 71,
-        "description": "Cut trees in one go!"
+        "description": "Cut trees in one go!",
+        "min_format": [88, 0],
+        "max_format": [101, 1]
     }
 }

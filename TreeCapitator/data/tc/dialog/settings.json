@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "TreeCapitator",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Open TreeCapitator settings"
+    }
+  ],
+  "actions": [
+    {
+      "label": "Open Settings",
+      "action": {
+        "type": "run_command",
+        "command": "trigger TreeCapitator set 1"
+      }
+    }
+  ]
+}

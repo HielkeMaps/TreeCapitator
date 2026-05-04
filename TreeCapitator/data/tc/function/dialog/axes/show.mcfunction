@@ -1,0 +1,1 @@
+$dialog show @s {type:"minecraft:multi_action",title:"🪓 Axe Settings",external_title:"🪓 Axe Settings",body:[{type:"minecraft:plain_message",contents:"Configure which axes work with TreeCapitator"}],actions:$(axe_actions),exit_action:{label:"Back",action:{type:"run_command",command:"trigger TreeCapitator set 1"}},columns:2,button_width:150}

@@ -1,0 +1,1 @@
+$scoreboard players reset @s tc.use_$(a_score)

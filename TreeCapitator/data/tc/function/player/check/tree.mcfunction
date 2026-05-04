@@ -1,0 +1,1 @@
+$function tc:player/check/tree2 with storage tc:storage trees[$(current_tree_id)]

@@ -4,7 +4,7 @@ const fs = require('fs-extra');
 const sourcePath = 'TreeCapitator';
 
 // Change this to the datapacks folder of your world!
-const datapacksFolder = 'C:\\Users\\Hielk\\AppData\\Roaming\\.minecraft\\saves\\TreeCapitator\\datapacks';
+const datapacksFolder = 'C:/Users/hvand/AppData/Roaming/ModrinthApp/profiles/Latest (1)/saves/TreeCapitator/datapacks';
 
 const watcher = chokidar.watch(sourcePath, {
   ignored: /(^|[/\\])\../, // Ignore hidden files

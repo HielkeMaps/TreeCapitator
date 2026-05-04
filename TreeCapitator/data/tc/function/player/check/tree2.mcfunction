@@ -1,0 +1,1 @@
+$execute if score @s tc.break_$(t_block) matches 1.. run function tc:player/check/valid with storage tc:storage trees[$(t_id)]
