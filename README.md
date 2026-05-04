@@ -26,6 +26,7 @@ From the main dialog you can toggle:
 ### Axe settings
 
 ![Axe settings](Media/Axe%20settings.png)
+![Tree settings](Media/Tree%20settings.png)
 
 For each axe you can enable/disable it and choose which tree types it can fell.
 
