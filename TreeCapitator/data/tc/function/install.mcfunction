@@ -48,4 +48,8 @@ function tc:axe/register {score: "wooden_axe", namespace:"minecraft", name: "Woo
 function tc:axe/register {score: "copper_axe", namespace:"minecraft", name: "Copper Axe", max_damage: 190}
 # Add custom axes here, or call tc:axe/register from your own datapack. No tag files needed — use-detection is dynamic.
 
+# Netherite axe is the only default axe that can fell nether trees
+scoreboard players set netherite_axe tc.break_crimson_stem 1
+scoreboard players set netherite_axe tc.break_warped_stem 1
+
 tellraw @a [{"text":"[Datapack]"},{"text":" TreeCapitator v5.0 has been enabled. ","color":"green"},{"text":"Press G to configure.","color":"gray","italic":true}]
