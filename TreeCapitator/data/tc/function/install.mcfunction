@@ -22,17 +22,17 @@ scoreboard objectives add TreeCapitator trigger
 # Register Trees
 data modify storage tc:storage trees set value []
 scoreboard players set tc.tree_count tc.value 0
-function tc:tree/register {default_enabled: 1, name: "Oak", block: oak_log, stat: "minecraft.mined:minecraft.oak_log", namespace:"minecraft",animation_block:oak_wood,leaves:oak_leaves,diagonal_up:1,diagonal_side:1,stem:0,nether:0,max_branch:3}
-function tc:tree/register {default_enabled: 1,name: "Dark Oak",block: dark_oak_log, stat: "minecraft.mined:minecraft.dark_oak_log", namespace:"minecraft",animation_block:dark_oak_wood,leaves:dark_oak_leaves,diagonal_up:1,diagonal_side:1,stem:1,nether:0,max_branch:0}
-function tc:tree/register {default_enabled: 1,name: "Pale Oak",block: pale_oak_log, stat: "minecraft.mined:minecraft.pale_oak_log", namespace:"minecraft",animation_block:pale_oak_wood,leaves:pale_oak_leaves,diagonal_up:1,diagonal_side:1,stem:1,nether:0,max_branch:0}
-function tc:tree/register {default_enabled: 1,name: "Acacia",block: acacia_log, stat: "minecraft.mined:minecraft.acacia_log", namespace:"minecraft",animation_block:acacia_wood,leaves:acacia_leaves,diagonal_up:1,diagonal_side:0,stem:0,nether:0,max_branch:0}
-function tc:tree/register {default_enabled: 1,name: "Spruce",block: spruce_log, stat: "minecraft.mined:minecraft.spruce_log",namespace:"minecraft",animation_block:spruce_log,leaves:spruce_leaves,diagonal_up:1,diagonal_side:0,stem:1,nether:0,max_branch:0}
-function tc:tree/register {default_enabled: 1,name: "Jungle",block: jungle_log, stat: "minecraft.mined:minecraft.jungle_log",namespace:"minecraft",animation_block:jungle_wood,leaves:jungle_leaves,diagonal_up:1,diagonal_side:1,stem:1,nether:0,max_branch:2}
-function tc:tree/register {default_enabled: 1,name: "Birch",block: birch_log, stat: "minecraft.mined:minecraft.birch_log",namespace:"minecraft",animation_block:birch_log,leaves:birch_leaves,diagonal_up:0,diagonal_side:0,stem:0,nether:0,max_branch:0}
-function tc:tree/register {default_enabled: 1,name: "Cherry",block: cherry_log, stat: "minecraft.mined:minecraft.cherry_log",namespace:"minecraft",animation_block:cherry_wood,leaves:cherry_leaves,diagonal_up:0,diagonal_side:0,stem:0,nether:0,max_branch:4}
-function tc:tree/register {default_enabled: 1,name: "Mangrove",block: mangrove_log, stat: "minecraft.mined:minecraft.mangrove_log",namespace:"minecraft",animation_block:mangrove_wood,leaves:mangrove_leaves,diagonal_up:1,diagonal_side:1,stem:0,nether:0,max_branch:0}
-function tc:tree/register {default_enabled: 0,name: "Crimson",block: crimson_stem, stat: "minecraft.mined:minecraft.crimson_stem",namespace:"minecraft",animation_block:crimson_hyphae,leaves:nether_wart_block,diagonal_up:1,diagonal_side:1,stem:0,nether:1,max_branch:0}
-function tc:tree/register {default_enabled: 0,name: "Warped",block: warped_stem, stat: "minecraft.mined:minecraft.warped_stem",namespace:"minecraft",animation_block:warped_hyphae,leaves:warped_wart_block,diagonal_up:1,diagonal_side:1,stem:0,nether:1,max_branch:0}
+function tc:tree/register {default_enabled: 1, name: "Oak", block: oak_log, namespace:"minecraft",animation_block:oak_wood,leaves:oak_leaves,diagonal_up:1,diagonal_side:1,stem:0,nether:0,max_branch:3}
+function tc:tree/register {default_enabled: 1,name: "Dark Oak",block: dark_oak_log, namespace:"minecraft",animation_block:dark_oak_wood,leaves:dark_oak_leaves,diagonal_up:1,diagonal_side:1,stem:1,nether:0,max_branch:0}
+function tc:tree/register {default_enabled: 1,name: "Pale Oak",block: pale_oak_log, namespace:"minecraft",animation_block:pale_oak_wood,leaves:pale_oak_leaves,diagonal_up:1,diagonal_side:1,stem:1,nether:0,max_branch:0}
+function tc:tree/register {default_enabled: 1,name: "Acacia",block: acacia_log, namespace:"minecraft",animation_block:acacia_wood,leaves:acacia_leaves,diagonal_up:1,diagonal_side:0,stem:0,nether:0,max_branch:0}
+function tc:tree/register {default_enabled: 1,name: "Spruce",block: spruce_log, namespace:"minecraft",animation_block:spruce_log,leaves:spruce_leaves,diagonal_up:1,diagonal_side:0,stem:1,nether:0,max_branch:0}
+function tc:tree/register {default_enabled: 1,name: "Jungle",block: jungle_log, namespace:"minecraft",animation_block:jungle_wood,leaves:jungle_leaves,diagonal_up:1,diagonal_side:1,stem:1,nether:0,max_branch:2}
+function tc:tree/register {default_enabled: 1,name: "Birch",block: birch_log, namespace:"minecraft",animation_block:birch_log,leaves:birch_leaves,diagonal_up:0,diagonal_side:0,stem:0,nether:0,max_branch:0}
+function tc:tree/register {default_enabled: 1,name: "Cherry",block: cherry_log, namespace:"minecraft",animation_block:cherry_wood,leaves:cherry_leaves,diagonal_up:0,diagonal_side:0,stem:0,nether:0,max_branch:4}
+function tc:tree/register {default_enabled: 1,name: "Mangrove",block: mangrove_log, namespace:"minecraft",animation_block:mangrove_wood,leaves:mangrove_leaves,diagonal_up:1,diagonal_side:1,stem:0,nether:0,max_branch:0}
+function tc:tree/register {default_enabled: 0,name: "Crimson",block: crimson_stem, namespace:"minecraft",animation_block:crimson_hyphae,leaves:nether_wart_block,diagonal_up:1,diagonal_side:1,stem:0,nether:1,max_branch:0}
+function tc:tree/register {default_enabled: 0,name: "Warped",block: warped_stem, namespace:"minecraft",animation_block:warped_hyphae,leaves:warped_wart_block,diagonal_up:1,diagonal_side:1,stem:0,nether:1,max_branch:0}
 # Add custom trees here, or call tc:tree/register from your own datapack.
 # Custom log/leaf blocks must also be added to data/tc/tags/block/{logs,leaves,nether_logs,nether_leaves}.json — Minecraft merges tags from all datapacks.
 
