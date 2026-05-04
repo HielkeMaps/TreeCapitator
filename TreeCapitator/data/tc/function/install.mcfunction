@@ -13,6 +13,10 @@ execute unless score tc.break_leaves tc.value = tc.break_leaves tc.value run sco
 execute unless score tc.animation tc.value = tc.animation tc.value run scoreboard players set tc.animation tc.value 1
 execute unless score tc.lock_options tc.value = tc.lock_options tc.value run scoreboard players set tc.lock_options tc.value 0
 
+# Silence /trigger output from the settings dialog.
+# Side effect: no command feedback for any command. Run /gamerule send_command_feedback true to re-enable.
+gamerule send_command_feedback false
+
 scoreboard objectives add TreeCapitator trigger
 
 # Register Trees
