@@ -65,3 +65,4 @@ For your custom log/leaf blocks to be detected during felling, also extend TreeC
 2. `npm i` to install dependencies.
 3. Edit `watch-changes.js` — set `datapacksFolder` to your world's `datapacks` folder.
 4. `npm start` — syncs files live as you edit.
+5. `npm run zip` — packages the data pack as `TreeCapitator.vX.Y.zip` (version is read from the install message in `data/tc/function/install.mcfunction`).

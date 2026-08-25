@@ -4,12 +4,14 @@
   "description": "TreeCapitator Data Pack for Minecraft",
   "main": "index.js",
   "scripts": {
-    "start": "node watch-changes.js"
+    "start": "node watch-changes.js",
+    "zip": "node zip.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "archiver": "^7.0.1",
     "chokidar": "^3.6.0",
     "fs-extra": "^11.2.0"
   }
