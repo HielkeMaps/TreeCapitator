@@ -32,7 +32,7 @@ function copyFiles() {
     return;
   }
   copying = true;
-  fs.copy(sourcePath, datapacksFolder + '\TreeCapitator')
+  fs.copy(sourcePath, datapacksFolder + '/TreeCapitator')
     .then(() => {
       console.log('Files copied to Minecraft datapack folder.');
     })
