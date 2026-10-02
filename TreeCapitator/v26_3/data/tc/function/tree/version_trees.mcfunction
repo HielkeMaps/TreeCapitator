@@ -1,0 +1,1 @@
+function tc:tree/register {default_enabled: 1,name: "Poplar",block: poplar_log, namespace:"minecraft",animation_block:poplar_log,leaves:red_poplar_leaves,diagonal_up:1,diagonal_side:0,stem:0,nether:0,max_branch:2}

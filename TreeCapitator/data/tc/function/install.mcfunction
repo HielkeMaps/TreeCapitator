@@ -31,7 +31,7 @@ function tc:tree/register {default_enabled: 1,name: "Spruce",block: spruce_log, 
 function tc:tree/register {default_enabled: 1,name: "Jungle",block: jungle_log, namespace:"minecraft",animation_block:jungle_wood,leaves:jungle_leaves,diagonal_up:1,diagonal_side:1,stem:1,nether:0,max_branch:2}
 function tc:tree/register {default_enabled: 1,name: "Birch",block: birch_log, namespace:"minecraft",animation_block:birch_log,leaves:birch_leaves,diagonal_up:0,diagonal_side:0,stem:0,nether:0,max_branch:0}
 function tc:tree/register {default_enabled: 1,name: "Cherry",block: cherry_log, namespace:"minecraft",animation_block:cherry_wood,leaves:cherry_leaves,diagonal_up:0,diagonal_side:0,stem:0,nether:0,max_branch:4}
-function tc:tree/register {default_enabled: 1,name: "Poplar",block: poplar_log, namespace:"minecraft",animation_block:poplar_log,leaves:red_poplar_leaves,diagonal_up:1,diagonal_side:0,stem:0,nether:0,max_branch:2}
+function tc:tree/version_trees
 function tc:tree/register {default_enabled: 1,name: "Mangrove",block: mangrove_log, namespace:"minecraft",animation_block:mangrove_wood,leaves:mangrove_leaves,diagonal_up:1,diagonal_side:1,stem:0,nether:0,max_branch:0}
 function tc:tree/register {default_enabled: 0,name: "Crimson",block: crimson_stem, namespace:"minecraft",animation_block:crimson_hyphae,leaves:nether_wart_block,diagonal_up:1,diagonal_side:1,stem:0,nether:1,max_branch:0}
 function tc:tree/register {default_enabled: 0,name: "Warped",block: warped_stem, namespace:"minecraft",animation_block:warped_hyphae,leaves:warped_wart_block,diagonal_up:1,diagonal_side:1,stem:0,nether:1,max_branch:0}
