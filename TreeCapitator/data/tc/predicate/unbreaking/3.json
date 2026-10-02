@@ -7,7 +7,7 @@
         "predicates": {
           "minecraft:enchantments": [
             {
-              "enchantment": "minecraft:unbreaking",
+              "enchantments": "minecraft:unbreaking",
               "levels": 3
             }
           ]

@@ -1,5 +1,9 @@
 #Don't edit options if locked (activation triggers are per-player and exempt)
-execute if score tc.lock_options tc.value matches 1 unless score @s TreeCapitator matches 700..701 unless score @s TreeCapitator matches 1000..1001 unless score @s TreeCapitator matches 1700 run scoreboard players set @s TreeCapitator 1
+execute if score tc.lock_options tc.value matches 1 unless score @s TreeCapitator matches 2 unless score @s TreeCapitator matches 700..701 unless score @s TreeCapitator matches 1000..1001 unless score @s TreeCapitator matches 1700 run scoreboard players set @s TreeCapitator 1
+
+# Every value except 2 (close) shows another dialog, so keep command feedback hidden until it's answered
+execute unless score @s TreeCapitator matches 2 run function tc:feedback/hide
+execute if score @s TreeCapitator matches 2 run scoreboard players reset @s tc.menu_timer
 
 # Dialog navigation
 execute if score @s TreeCapitator matches 1 run function tc:options

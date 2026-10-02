@@ -1,5 +1,5 @@
 {
-  "condition": "minecraft:entity_properties",
+  "type": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
     "minecraft:equipment": {
@@ -8,7 +8,7 @@
           "minecraft:enchantments": [
             {
               "enchantments": "minecraft:unbreaking",
-              "levels": 2
+              "levels": 3
             }
           ]
         }

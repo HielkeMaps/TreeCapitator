@@ -2,6 +2,15 @@
     "pack": {
         "description": "Cut trees in one go!",
         "min_format": [88, 0],
-        "max_format": [107, 1]
+        "max_format": [121, 0]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "min_format": [121, 0],
+                "max_format": [121, 0],
+                "directory": "v26_3"
+            }
+        ]
     }
 }

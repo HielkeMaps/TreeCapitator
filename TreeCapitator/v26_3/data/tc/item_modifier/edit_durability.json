@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:set_damage",
+  "damage": {
+    "type": "minecraft:mul",
+    "inputs": [
+      {
+        "type": "minecraft:from_int",
+        "input": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "tc.damage_percentage"
+          },
+          "score": "tc.value"
+        }
+      },
+      -0.000001005
+    ]
+  },
+  "add": true
+}

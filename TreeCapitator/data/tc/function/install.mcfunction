@@ -8,14 +8,15 @@ scoreboard players set 1000000 tc.value 1000000
 scoreboard objectives add tc.when_standing dummy
 scoreboard objectives add tc.when_sneaking dummy
 
+# Command feedback is only hidden while a settings dialog is open. No dialog survives a reload, so the next tick restores it.
+scoreboard objectives add tc.menu_timer dummy
+scoreboard objectives add tc.left_game minecraft.custom:minecraft.leave_game
+scoreboard players reset * tc.menu_timer
+
 execute unless score tc.take_durability tc.value = tc.take_durability tc.value run scoreboard players set tc.take_durability tc.value 1
 execute unless score tc.break_leaves tc.value = tc.break_leaves tc.value run scoreboard players set tc.break_leaves tc.value 1
 execute unless score tc.animation tc.value = tc.animation tc.value run scoreboard players set tc.animation tc.value 1
 execute unless score tc.lock_options tc.value = tc.lock_options tc.value run scoreboard players set tc.lock_options tc.value 0
-
-# Silence /trigger output from the settings dialog.
-# Side effect: no command feedback for any command. Run /gamerule send_command_feedback true to re-enable.
-gamerule send_command_feedback false
 
 scoreboard objectives add TreeCapitator trigger
 
@@ -30,6 +31,7 @@ function tc:tree/register {default_enabled: 1,name: "Spruce",block: spruce_log, 
 function tc:tree/register {default_enabled: 1,name: "Jungle",block: jungle_log, namespace:"minecraft",animation_block:jungle_wood,leaves:jungle_leaves,diagonal_up:1,diagonal_side:1,stem:1,nether:0,max_branch:2}
 function tc:tree/register {default_enabled: 1,name: "Birch",block: birch_log, namespace:"minecraft",animation_block:birch_log,leaves:birch_leaves,diagonal_up:0,diagonal_side:0,stem:0,nether:0,max_branch:0}
 function tc:tree/register {default_enabled: 1,name: "Cherry",block: cherry_log, namespace:"minecraft",animation_block:cherry_wood,leaves:cherry_leaves,diagonal_up:0,diagonal_side:0,stem:0,nether:0,max_branch:4}
+function tc:tree/register {default_enabled: 1,name: "Poplar",block: poplar_log, namespace:"minecraft",animation_block:poplar_log,leaves:red_poplar_leaves,diagonal_up:1,diagonal_side:0,stem:0,nether:0,max_branch:2}
 function tc:tree/register {default_enabled: 1,name: "Mangrove",block: mangrove_log, namespace:"minecraft",animation_block:mangrove_wood,leaves:mangrove_leaves,diagonal_up:1,diagonal_side:1,stem:0,nether:0,max_branch:0}
 function tc:tree/register {default_enabled: 0,name: "Crimson",block: crimson_stem, namespace:"minecraft",animation_block:crimson_hyphae,leaves:nether_wart_block,diagonal_up:1,diagonal_side:1,stem:0,nether:1,max_branch:0}
 function tc:tree/register {default_enabled: 0,name: "Warped",block: warped_stem, namespace:"minecraft",animation_block:warped_hyphae,leaves:warped_wart_block,diagonal_up:1,diagonal_side:1,stem:0,nether:1,max_branch:0}

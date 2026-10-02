@@ -9,6 +9,7 @@ scoreboard objectives remove tc.break_warped_stem
 scoreboard objectives remove tc.break_mangrove_log
 scoreboard objectives remove tc.break_cherry_log
 scoreboard objectives remove tc.break_pale_oak_log
+scoreboard objectives remove tc.break_poplar_log
 
 scoreboard objectives remove tc.use_wooden_axe
 scoreboard objectives remove tc.use_stone_axe
@@ -20,6 +21,10 @@ scoreboard objectives remove tc.use_netherite_axe
 
 scoreboard objectives remove tc.when_standing
 scoreboard objectives remove tc.when_sneaking
+
+function tc:feedback/restore
+scoreboard objectives remove tc.menu_timer
+scoreboard objectives remove tc.left_game
 
 scoreboard objectives remove tc.value
 

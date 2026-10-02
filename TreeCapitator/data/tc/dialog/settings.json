@@ -4,16 +4,35 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "Open TreeCapitator settings"
+      "contents": "Fell an entire tree by chopping a single log."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Found a bug or have a suggestion? Let me know on GitHub!",
+        "color": "gray",
+        "italic": true
+      }
     }
   ],
   "actions": [
     {
       "label": "Open Settings",
+      "tooltip": "Configure activation, durability, leaves, animation and axes.",
       "action": {
         "type": "run_command",
-        "command": "trigger TreeCapitator set 1"
+        "command": "trigger TreeCapitator"
+      }
+    },
+    {
+      "label": "GitHub",
+      "tooltip": "github.com/HielkeMaps/TreeCapitator",
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/HielkeMaps/TreeCapitator"
       }
     }
-  ]
+  ],
+  "columns": 1,
+  "button_width": 200
 }
